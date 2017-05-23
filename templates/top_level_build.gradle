@@ -1,0 +1,34 @@
+apply plugin: 'com.android.library'
+
+// ***
+// replace [...] with necessary values
+// ***
+
+ext {
+    bintrayRepo = '...'
+    bintrayName = '...'
+
+    publishedGroupId = 'com.github.henryco'
+    libraryName = '...'
+    artifact = '...'
+
+    libraryDescription = '...'
+
+    siteUrl = 'https://github.com/henryco/...'
+    gitUrl = 'https://github.com/henryco/... .git'
+
+    libraryVersion = '...'
+
+    developerId = 'henryco'
+    developerName = 'Henry Timur Domagalski'
+    developerEmail = 'henrycodev@gmail.com'
+
+    licenseName = '...'
+    licenseUrl = 'https://github.com/henryco/.../blob/master/LICENSE'
+    allLicenses = ["..."]
+
+    apply from: 'installv1.gradle'
+    apply from: 'bintrayv1.gradle'
+}
+
+// END OF FILE
