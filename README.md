@@ -1,2 +1,2 @@
-# jCenter
-Gradle scripts templates
+# MavenReleasing
+Gradle scripts and templates
