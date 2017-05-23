@@ -19,7 +19,7 @@ ext {
 
     libraryVersion = '...'
 
-    developerId = 'henryco'
+    developerId = '...'
     developerName = 'Henry Timur Domagalski'
     developerEmail = 'henrycodev@gmail.com'
 
